@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Nepakala
 //
-//  Created by Strag on 7/20/17.
+//  Created by Rajiv Shrestha on 7/20/17.
 //  Copyright © 2017 rb. All rights reserved.
 //
 

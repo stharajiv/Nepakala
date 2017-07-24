@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5403601B1F23901A00541CD0 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5403601A1F23901900541CD0 /* LoginScreen.swift */; };
+		540360211F23B2B500541CD0 /* MainScreenCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540360201F23B2B500541CD0 /* MainScreenCollectionViewCell.swift */; };
 		54F0A9FE1F21104F0068809F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F0A9FD1F21104F0068809F /* AppDelegate.swift */; };
 		54F0AA001F21104F0068809F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F0A9FF1F21104F0068809F /* ViewController.swift */; };
 		54F0AA031F2110500068809F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F0AA011F2110500068809F /* Main.storyboard */; };
 		54F0AA051F2110500068809F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F0AA041F2110500068809F /* Assets.xcassets */; };
 		54F0AA081F2110500068809F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F0AA061F2110500068809F /* LaunchScreen.storyboard */; };
+		A3E0D5BD23296B59E3E6CAB3 /* Pods_Nepakala.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DB0DF2B2D7A22DD90C59D3 /* Pods_Nepakala.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21339EE87147605CFBAC36C7 /* Pods-Nepakala.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nepakala.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nepakala/Pods-Nepakala.release.xcconfig"; sourceTree = "<group>"; };
+		5403601A1F23901900541CD0 /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		540360201F23B2B500541CD0 /* MainScreenCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenCollectionViewCell.swift; sourceTree = "<group>"; };
 		54F0A9FA1F21104F0068809F /* Nepakala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nepakala.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F0A9FD1F21104F0068809F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54F0A9FF1F21104F0068809F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,8 @@
 		54F0AA041F2110500068809F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54F0AA071F2110500068809F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54F0AA091F2110500068809F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD20B80EA92925ECB39DC7FA /* Pods-Nepakala.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nepakala.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nepakala/Pods-Nepakala.debug.xcconfig"; sourceTree = "<group>"; };
+		D9DB0DF2B2D7A22DD90C59D3 /* Pods_Nepakala.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nepakala.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3E0D5BD23296B59E3E6CAB3 /* Pods_Nepakala.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				54F0A9FC1F21104F0068809F /* Nepakala */,
 				54F0A9FB1F21104F0068809F /* Products */,
+				A306B04FF978EF5690AF51BD /* Pods */,
+				D517DE516614E58D6BB94E83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +71,27 @@
 				54F0AA041F2110500068809F /* Assets.xcassets */,
 				54F0AA061F2110500068809F /* LaunchScreen.storyboard */,
 				54F0AA091F2110500068809F /* Info.plist */,
+				5403601A1F23901900541CD0 /* LoginScreen.swift */,
+				540360201F23B2B500541CD0 /* MainScreenCollectionViewCell.swift */,
 			);
 			path = Nepakala;
+			sourceTree = "<group>";
+		};
+		A306B04FF978EF5690AF51BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD20B80EA92925ECB39DC7FA /* Pods-Nepakala.debug.xcconfig */,
+				21339EE87147605CFBAC36C7 /* Pods-Nepakala.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D517DE516614E58D6BB94E83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9DB0DF2B2D7A22DD90C59D3 /* Pods_Nepakala.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54F0AA0C1F2110500068809F /* Build configuration list for PBXNativeTarget "Nepakala" */;
 			buildPhases = (
+				CFA4630AF7C3ECAD61E7F0CD /* [CP] Check Pods Manifest.lock */,
 				54F0A9F61F2110490068809F /* Sources */,
 				54F0A9F71F2110490068809F /* Frameworks */,
 				54F0A9F81F2110490068809F /* Resources */,
+				E309B18FB753EE19EBC1C781 /* [CP] Embed Pods Frameworks */,
+				D43A197A9CC4F2E764B02EE5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +129,7 @@
 				TargetAttributes = {
 					54F0A9F91F2110490068809F = {
 						CreatedOnToolsVersion = 8.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -131,13 +164,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CFA4630AF7C3ECAD61E7F0CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D43A197A9CC4F2E764B02EE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nepakala/Pods-Nepakala-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E309B18FB753EE19EBC1C781 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nepakala/Pods-Nepakala-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		54F0A9F61F2110490068809F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				540360211F23B2B500541CD0 /* MainScreenCollectionViewCell.swift in Sources */,
 				54F0AA001F21104F0068809F /* ViewController.swift in Sources */,
 				54F0A9FE1F21104F0068809F /* AppDelegate.swift in Sources */,
+				5403601B1F23901A00541CD0 /* LoginScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +341,12 @@
 		};
 		54F0AA0D1F2110500068809F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD20B80EA92925ECB39DC7FA /* Pods-Nepakala.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Nepakala/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rb.Nepakala;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,9 +356,12 @@
 		};
 		54F0AA0E1F2110500068809F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21339EE87147605CFBAC36C7 /* Pods-Nepakala.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Nepakala/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rb.Nepakala;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +388,7 @@
 				54F0AA0E1F2110500068809F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
