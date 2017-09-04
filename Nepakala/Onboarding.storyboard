@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="pf6-qZ-eXm">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Onboarding Screen-->
+        <scene sceneID="xtk-Jb-p6X">
+            <objects>
+                <viewController storyboardIdentifier="onboarding" title="Onboarding Screen" id="pf6-qZ-eXm" customClass="OnboardingViewController" customModule="Nepakala" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qnw-jj-UHN"/>
+                        <viewControllerLayoutGuide type="bottom" id="gYs-XZ-gtn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mte-2s-ncZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M86-co-1Hu" customClass="OnBoardingView" customModule="Nepakala" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" alpha="0.55000001192092896" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ashok" translatesAutoresizingMaskIntoConstraints="NO" id="beJ-Fa-Kdo">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nepakala" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d19-xP-t4b">
+                                        <rect key="frame" x="55" y="87" width="264" height="97"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EBC-RZ-e3m">
+                                        <rect key="frame" x="128" y="553" width="118" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <state key="normal" title="Get Started">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Search &amp; sort the world's creative work by creative field, location &amp; more" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j5U-r1-i70">
+                                        <rect key="frame" x="61" y="471" width="270" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ddx-CO-tNK">
+                                        <rect key="frame" x="152" y="442" width="71" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="beJ-Fa-Kdo" firstAttribute="leading" secondItem="M86-co-1Hu" secondAttribute="leading" id="VTq-QW-LKy"/>
+                                    <constraint firstItem="beJ-Fa-Kdo" firstAttribute="top" secondItem="M86-co-1Hu" secondAttribute="top" id="bnX-GU-pSc"/>
+                                    <constraint firstAttribute="bottom" secondItem="beJ-Fa-Kdo" secondAttribute="bottom" id="e8f-Te-uUd"/>
+                                    <constraint firstAttribute="trailing" secondItem="beJ-Fa-Kdo" secondAttribute="trailing" id="mdj-R2-8Ic"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="M86-co-1Hu" firstAttribute="leading" secondItem="mte-2s-ncZ" secondAttribute="leading" id="9rz-ms-Bmk"/>
+                            <constraint firstAttribute="trailing" secondItem="M86-co-1Hu" secondAttribute="trailing" id="fIF-GD-oSo"/>
+                            <constraint firstItem="M86-co-1Hu" firstAttribute="top" secondItem="mte-2s-ncZ" secondAttribute="top" id="wYy-P8-TWZ"/>
+                            <constraint firstItem="gYs-XZ-gtn" firstAttribute="top" secondItem="M86-co-1Hu" secondAttribute="bottom" id="zES-8u-UPk"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="onBoardingView" destination="M86-co-1Hu" id="wHV-BE-yxd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RdN-dU-M6x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-9" y="74"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ashok" width="109" height="115"/>
+    </resources>
+</document>

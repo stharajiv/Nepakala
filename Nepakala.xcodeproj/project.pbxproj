@@ -14,6 +14,18 @@
 		54F0AA031F2110500068809F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F0AA011F2110500068809F /* Main.storyboard */; };
 		54F0AA051F2110500068809F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F0AA041F2110500068809F /* Assets.xcassets */; };
 		54F0AA081F2110500068809F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F0AA061F2110500068809F /* LaunchScreen.storyboard */; };
+		60311CCC1F47350B00E48D90 /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60311CCB1F47350B00E48D90 /* Fetcher.swift */; };
+		603EDF061F28C67F00F9504B /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603EDF051F28C67F00F9504B /* OnboardingViewController.swift */; };
+		603EDF081F28C92300F9504B /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603EDF071F28C92300F9504B /* OnBoardingView.swift */; };
+		603EDF0A1F28CE3000F9504B /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603EDF091F28CE3000F9504B /* UserProfileViewController.swift */; };
+		604A0DF51F2B966C00486862 /* MainMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A0DF41F2B966C00486862 /* MainMenuTableViewController.swift */; };
+		604A0DF71F2BACDB00486862 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A0DF61F2BACDB00486862 /* RegisterScreen.swift */; };
+		604A0DF91F33524100486862 /* UserProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A0DF81F33524100486862 /* UserProfileCollectionViewCell.swift */; };
+		604A0DFB1F38A6C700486862 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 604A0DFA1F38A6C700486862 /* GoogleService-Info.plist */; };
+		604E1A331F26749B003A0C81 /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 604E1A321F26749B003A0C81 /* LoginScreen.storyboard */; };
+		609334281F27A8F400BA7F72 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 609334271F27A8F400BA7F72 /* SWRevealViewController.m */; };
+		6093342C1F27C1BA00BA7F72 /* UserProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6093342B1F27C1BA00BA7F72 /* UserProfile.storyboard */; };
+		60FA661F1F2777DA00CA678A /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60FA661E1F2777DA00CA678A /* Onboarding.storyboard */; };
 		A3E0D5BD23296B59E3E6CAB3 /* Pods_Nepakala.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DB0DF2B2D7A22DD90C59D3 /* Pods_Nepakala.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +40,20 @@
 		54F0AA041F2110500068809F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54F0AA071F2110500068809F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54F0AA091F2110500068809F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60311CCB1F47350B00E48D90 /* Fetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fetcher.swift; sourceTree = "<group>"; };
+		603EDF051F28C67F00F9504B /* OnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		603EDF071F28C92300F9504B /* OnBoardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		603EDF091F28CE3000F9504B /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		604A0DF41F2B966C00486862 /* MainMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuTableViewController.swift; sourceTree = "<group>"; };
+		604A0DF61F2BACDB00486862 /* RegisterScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
+		604A0DF81F33524100486862 /* UserProfileCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		604A0DFA1F38A6C700486862 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		604E1A321F26749B003A0C81 /* LoginScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
+		609334261F27A8F400BA7F72 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = Nepakala/SWRevealViewController.h; sourceTree = "<group>"; };
+		609334271F27A8F400BA7F72 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = Nepakala/SWRevealViewController.m; sourceTree = "<group>"; };
+		609334291F27A90E00BA7F72 /* Nepakala-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nepakala-Bridging-Header.h"; sourceTree = "<group>"; };
+		6093342B1F27C1BA00BA7F72 /* UserProfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserProfile.storyboard; sourceTree = "<group>"; };
+		60FA661E1F2777DA00CA678A /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
 		CD20B80EA92925ECB39DC7FA /* Pods-Nepakala.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nepakala.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nepakala/Pods-Nepakala.debug.xcconfig"; sourceTree = "<group>"; };
 		D9DB0DF2B2D7A22DD90C59D3 /* Pods_Nepakala.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nepakala.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -70,11 +96,58 @@
 				54F0AA011F2110500068809F /* Main.storyboard */,
 				54F0AA041F2110500068809F /* Assets.xcassets */,
 				54F0AA061F2110500068809F /* LaunchScreen.storyboard */,
+				604A0DFA1F38A6C700486862 /* GoogleService-Info.plist */,
 				54F0AA091F2110500068809F /* Info.plist */,
-				5403601A1F23901900541CD0 /* LoginScreen.swift */,
+				604A0DF41F2B966C00486862 /* MainMenuTableViewController.swift */,
 				540360201F23B2B500541CD0 /* MainScreenCollectionViewCell.swift */,
+				6093342A1F27C1A100BA7F72 /* User Profile */,
+				604E1A341F26756A003A0C81 /* Login Screen */,
+				60FA661D1F2777A400CA678A /* Onboarding Screen */,
+				604E1A2D1F2673AF003A0C81 /* SWRevealViewController */,
+				60311CCB1F47350B00E48D90 /* Fetcher.swift */,
 			);
 			path = Nepakala;
+			sourceTree = "<group>";
+		};
+		604E1A2D1F2673AF003A0C81 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				609334291F27A90E00BA7F72 /* Nepakala-Bridging-Header.h */,
+				609334261F27A8F400BA7F72 /* SWRevealViewController.h */,
+				609334271F27A8F400BA7F72 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		604E1A341F26756A003A0C81 /* Login Screen */ = {
+			isa = PBXGroup;
+			children = (
+				5403601A1F23901900541CD0 /* LoginScreen.swift */,
+				604E1A321F26749B003A0C81 /* LoginScreen.storyboard */,
+				604A0DF61F2BACDB00486862 /* RegisterScreen.swift */,
+			);
+			name = "Login Screen";
+			sourceTree = "<group>";
+		};
+		6093342A1F27C1A100BA7F72 /* User Profile */ = {
+			isa = PBXGroup;
+			children = (
+				6093342B1F27C1BA00BA7F72 /* UserProfile.storyboard */,
+				603EDF091F28CE3000F9504B /* UserProfileViewController.swift */,
+				604A0DF81F33524100486862 /* UserProfileCollectionViewCell.swift */,
+			);
+			name = "User Profile";
+			sourceTree = "<group>";
+		};
+		60FA661D1F2777A400CA678A /* Onboarding Screen */ = {
+			isa = PBXGroup;
+			children = (
+				60FA661E1F2777DA00CA678A /* Onboarding.storyboard */,
+				603EDF051F28C67F00F9504B /* OnboardingViewController.swift */,
+				603EDF071F28C92300F9504B /* OnBoardingView.swift */,
+			);
+			name = "Onboarding Screen";
 			sourceTree = "<group>";
 		};
 		A306B04FF978EF5690AF51BD /* Pods */ = {
@@ -129,6 +202,7 @@
 				TargetAttributes = {
 					54F0A9F91F2110490068809F = {
 						CreatedOnToolsVersion = 8.2;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -156,9 +230,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60FA661F1F2777DA00CA678A /* Onboarding.storyboard in Resources */,
 				54F0AA081F2110500068809F /* LaunchScreen.storyboard in Resources */,
 				54F0AA051F2110500068809F /* Assets.xcassets in Resources */,
+				6093342C1F27C1BA00BA7F72 /* UserProfile.storyboard in Resources */,
+				604E1A331F26749B003A0C81 /* LoginScreen.storyboard in Resources */,
 				54F0AA031F2110500068809F /* Main.storyboard in Resources */,
+				604A0DFB1F38A6C700486862 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,8 +295,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				604A0DF71F2BACDB00486862 /* RegisterScreen.swift in Sources */,
 				540360211F23B2B500541CD0 /* MainScreenCollectionViewCell.swift in Sources */,
+				604A0DF51F2B966C00486862 /* MainMenuTableViewController.swift in Sources */,
+				603EDF0A1F28CE3000F9504B /* UserProfileViewController.swift in Sources */,
+				603EDF061F28C67F00F9504B /* OnboardingViewController.swift in Sources */,
+				60311CCC1F47350B00E48D90 /* Fetcher.swift in Sources */,
+				603EDF081F28C92300F9504B /* OnBoardingView.swift in Sources */,
 				54F0AA001F21104F0068809F /* ViewController.swift in Sources */,
+				604A0DF91F33524100486862 /* UserProfileCollectionViewCell.swift in Sources */,
+				609334281F27A8F400BA7F72 /* SWRevealViewController.m in Sources */,
 				54F0A9FE1F21104F0068809F /* AppDelegate.swift in Sources */,
 				5403601B1F23901A00541CD0 /* LoginScreen.swift in Sources */,
 			);
@@ -344,12 +430,15 @@
 			baseConfigurationReference = CD20B80EA92925ECB39DC7FA /* Pods-Nepakala.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Nepakala/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rb.Nepakala;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Nepakala-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -359,12 +448,14 @@
 			baseConfigurationReference = 21339EE87147605CFBAC36C7 /* Pods-Nepakala.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Nepakala/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rb.Nepakala;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Nepakala-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

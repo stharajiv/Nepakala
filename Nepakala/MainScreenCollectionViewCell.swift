@@ -18,6 +18,8 @@ class MainScreenCollectionViewCell: UICollectionViewCell {
     @IBOutlet var Img_Likes: UIImageView!
     @IBOutlet var Img_Views: UILabel!
     @IBOutlet var Img_Followers: UIImageView!
+    @IBOutlet var img_View: UIImageView!
+    
     
     
 }
